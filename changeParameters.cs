@@ -40,7 +40,7 @@ public class changeParameters : MonoBehaviour {
 
     public void Lose()
     {
-        if (family.value == 0 || friend.value == 0 || girl.value == 0 || classmatess.value == 0)
+        if (family.value == 0 || friend.value == 0 || girl.value == 0 || classmatess.value == 0 || classmatess.value == 10 || friend.value == 10 || family.value == 10 || girl.value == 10)
         {
             Debug.Log("Lose");
             winPopUp.SetActive(true);
@@ -72,7 +72,7 @@ public class changeParameters : MonoBehaviour {
         backOfCircleSize();
         family.value += family_change;
         friend.value += friend_change;
-        girl.value += family_change;
+        girl.value += girl_change;
         classmatess.value += classmatess_change;
         int stepsInt = Convert.ToInt32(steps.text)-1;
         steps.text = Convert.ToString(stepsInt);
