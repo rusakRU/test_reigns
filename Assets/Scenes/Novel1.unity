@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641252, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6562,8 +6562,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portraitMat1: {fileID: 0}
-  actorLib: {fileID: 114597239182469236, guid: bc444c06368b54e4aa772a9b71baff9f, type: 2}
-  sceneLib: {fileID: 114441701092012666, guid: c1874b48d1863c64fb1781ffaf3be18a, type: 2}
+  actorLib: {fileID: 0}
+  sceneLib: {fileID: 0}
   highlightCurrentSpeaker: 0
   centerPosX: 0
   leftPosX: -180
@@ -13168,6 +13168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guiTextLink: {fileID: 1618704014}
+  tb: {fileID: 0}
 --- !u!114 &1749727154
 MonoBehaviour:
   m_ObjectHideFlags: 0
